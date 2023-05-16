@@ -203,7 +203,7 @@ Nᴀᴍᴇ - {}"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
-💁 Requested By: {}
+IMDb Data:
 
 🏷 Title: <a href={url}>{title}</a>
 🎭 Genres: {genres}
