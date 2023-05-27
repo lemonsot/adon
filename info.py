@@ -21,9 +21,9 @@ BOT_TOKEN = environ['BOT_TOKEN']
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/54a3f751fd638b619fcdc.jpg https://graph.org/file/2b6b956c9f9fc41e12579.jpg https://graph.org/file/954d14623cc7438bc3756.jpg https://graph.org/file/583400931a9455271974f.jpg https://graph.org/file/9f315ca46040ccd32aad0.jpg https://graph.org/file/419354ed1459ff6b41575.jpg https://graph.org/file/ea173bbf3a8f17baa71e8.jpg https://graph.org/file/18b44d48fb6f2538c6b8e.jpg https://graph.org/file/a469f0557b843b3336ee8.jpg https://graph.org/file/64fe171ff1c238a7772f0.jpg https://graph.org/file/6ad58471fc1994fc52034.jpg https://graph.org/file/6dcea7220cddee156a413.jpg https://graph.org/file/15734d8cab7486880f9cb.jpg https://graph.org/file/095f005bd4b1e37665425.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/-05-15-1223 https://telegra.ph/-05-15-1227 https://telegra.ph/-05-15-1230 https://telegra.ph/-05-15-1231 https://telegra.ph/-05-15-1232 https://telegra.ph/-05-15-1233 https://telegra.ph/-05-15-1234 https://telegra.ph/-05-15-1235 https://telegra.ph/-05-15-1236 https://telegra.ph/-05-15-1237 https://telegra.ph/-05-15-1238 https://telegra.ph/-05-15-1239 https://telegra.ph/-05-15-1240 https://telegra.ph/-05-15-1241 https://telegra.ph/-05-15-1242 https://telegra.ph/-05-15-1243')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
+MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/-05-15-1247")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
 
 # Admins, Channels & Users
@@ -42,24 +42,24 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Gowthaman:gowthaman2008@cluster0.ounmfkw.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Gowthaman")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_NAME = environ.get('DATABASE_NAME', "")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'UQ_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'TinyFy.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '650d974d16c6179ccfff52047033fc57d92d4d83')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omegalinks.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '0d579f14e443eea095bb71c3b57f23d715dff555')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Movie_Request_Z')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Movie_Zone_C1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+puERR8CAXdlhMzMx')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+BTvtLIkJwLpiMzZh')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'GM_Botzz')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'uq_support')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
